@@ -7,6 +7,8 @@ class CashRegister
     @total = 0 ||
     self.cash_register_with_discount -= 20
   end 
+  
+  def 
 
 end
 
