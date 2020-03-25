@@ -10,7 +10,7 @@ class CashRegister
   
   def add_item(title, price)
   
-    @total += 0.98
+    @total += "#{price}"
   end 
 
 end
@@ -18,4 +18,4 @@ end
 drawer = CashRegister.new(0)
 drawer.total
 drawer.cash_register_with_discount
-drawer.add_item
+drawer.add_item()
