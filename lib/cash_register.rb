@@ -18,4 +18,4 @@ end
 drawer = CashRegister.new(0)
 drawer.total
 drawer.cash_register_with_discount
-drawer.add_item("eggs", 0.98)
+drawer.add_item("eggs", "0.98")
