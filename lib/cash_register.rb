@@ -10,7 +10,7 @@ class CashRegister
   
   def add_item(title, price)
   
-    @total += "#{price}"
+    @total += "#{price}".to_i
   end 
 
 end
